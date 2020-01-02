@@ -1,0 +1,16 @@
+﻿<Window x:Class="ilaydaproje.siparistakip"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ilaydaproje"
+        mc:Ignorable="d"
+        Title="siparistakip" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="textbox1" HorizontalAlignment="Left" Height="51" Margin="141,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="508" FontSize="36"/>
+        <Label Content="Sipariş Numarası" HorizontalAlignment="Left" Margin="202,55,0,0" VerticalAlignment="Top" FontSize="48"/>
+        <Button Content="SORGULA" HorizontalAlignment="Left" Margin="287,206,0,0" VerticalAlignment="Top" Width="198" Height="50" Click="Button_Click"/>
+        <TextBlock x:Name="tb1" HorizontalAlignment="Left" Margin="287,305,0,0" TextWrapping="Wrap" Text="SONUÇ" VerticalAlignment="Top" FontSize="24"/>
+
+    </Grid>
+</Window>

@@ -47,5 +47,12 @@ namespace ilaydaproje
         {
             this.Close();
         }
+
+        private void siparistakip_Click(object sender, RoutedEventArgs e)
+        {
+            siparistakip st = new siparistakip();
+
+            st.Show();
+        }
     }
 }

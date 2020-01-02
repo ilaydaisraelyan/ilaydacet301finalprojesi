@@ -32,3 +32,5 @@ C:\Users\ilayda\Desktop\ilaydacet301finalprojesi\ilaydaproje\ilaydaproje\obj\Deb
 C:\Users\ilayda\Desktop\ilaydacet301finalprojesi\ilaydaproje\ilaydaproje\obj\Debug\ilaydaproje.pdb
 C:\Users\ilayda\Desktop\ilaydacet301finalprojesi\ilaydaproje\ilaydaproje\obj\Debug\kiralasatinal.g.cs
 C:\Users\ilayda\Desktop\ilaydacet301finalprojesi\ilaydaproje\ilaydaproje\obj\Debug\kiralasatinal.baml
+C:\Users\ilayda\Desktop\ilaydacet301finalprojesi\ilaydaproje\ilaydaproje\obj\Debug\siparistakip.g.cs
+C:\Users\ilayda\Desktop\ilaydacet301finalprojesi\ilaydaproje\ilaydaproje\obj\Debug\siparistakip.baml

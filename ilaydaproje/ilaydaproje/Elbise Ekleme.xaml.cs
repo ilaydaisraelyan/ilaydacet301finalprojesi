@@ -23,5 +23,20 @@ namespace ilaydaproje
         {
             InitializeComponent();
         }
+
+        private void textbox1_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            string urunmarkasi = textbox1.Text;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Ürün bilgileri başarıyla kaydedildi.", "İşlem başarılı!");
+        }
+
+        private void Button_Click_12(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

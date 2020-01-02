@@ -136,5 +136,8 @@
     <Resource Include="elbıse5.PNG" />
     <Resource Include="elbıse6.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="elbıse7.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

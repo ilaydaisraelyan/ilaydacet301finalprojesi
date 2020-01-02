@@ -41,5 +41,10 @@ namespace ilaydaproje
                 MessageBox.Show("Kullanıcı bilgileri yanlış. Tekrar deneyiniz.", "Hata!");
             }
         }
+
+        private void textbox1_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

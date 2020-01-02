@@ -139,5 +139,11 @@
   <ItemGroup>
     <Resource Include="elbıse7.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="gırıselbıse.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="dress_03.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

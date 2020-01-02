@@ -72,7 +72,7 @@ namespace ilaydaproje {
             {
             case 1:
             
-            #line 33 "..\..\kiralasatinal.xaml"
+            #line 35 "..\..\kiralasatinal.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click);
             
             #line default
@@ -80,7 +80,7 @@ namespace ilaydaproje {
             return;
             case 2:
             
-            #line 34 "..\..\kiralasatinal.xaml"
+            #line 36 "..\..\kiralasatinal.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_1);
             
             #line default
@@ -88,7 +88,7 @@ namespace ilaydaproje {
             return;
             case 3:
             
-            #line 35 "..\..\kiralasatinal.xaml"
+            #line 37 "..\..\kiralasatinal.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_2);
             
             #line default
@@ -96,7 +96,7 @@ namespace ilaydaproje {
             return;
             case 4:
             
-            #line 36 "..\..\kiralasatinal.xaml"
+            #line 38 "..\..\kiralasatinal.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_4);
             
             #line default
@@ -104,7 +104,7 @@ namespace ilaydaproje {
             return;
             case 5:
             
-            #line 37 "..\..\kiralasatinal.xaml"
+            #line 39 "..\..\kiralasatinal.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_5);
             
             #line default
@@ -112,7 +112,7 @@ namespace ilaydaproje {
             return;
             case 6:
             
-            #line 38 "..\..\kiralasatinal.xaml"
+            #line 40 "..\..\kiralasatinal.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_6);
             
             #line default
@@ -120,7 +120,7 @@ namespace ilaydaproje {
             return;
             case 7:
             
-            #line 39 "..\..\kiralasatinal.xaml"
+            #line 41 "..\..\kiralasatinal.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_7);
             
             #line default
@@ -128,7 +128,7 @@ namespace ilaydaproje {
             return;
             case 8:
             
-            #line 40 "..\..\kiralasatinal.xaml"
+            #line 42 "..\..\kiralasatinal.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_8);
             
             #line default
@@ -136,7 +136,7 @@ namespace ilaydaproje {
             return;
             case 9:
             
-            #line 41 "..\..\kiralasatinal.xaml"
+            #line 43 "..\..\kiralasatinal.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_9);
             
             #line default
@@ -144,7 +144,7 @@ namespace ilaydaproje {
             return;
             case 10:
             
-            #line 42 "..\..\kiralasatinal.xaml"
+            #line 44 "..\..\kiralasatinal.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_10);
             
             #line default
@@ -152,7 +152,7 @@ namespace ilaydaproje {
             return;
             case 11:
             
-            #line 43 "..\..\kiralasatinal.xaml"
+            #line 45 "..\..\kiralasatinal.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_11);
             
             #line default
@@ -160,7 +160,7 @@ namespace ilaydaproje {
             return;
             case 12:
             
-            #line 44 "..\..\kiralasatinal.xaml"
+            #line 46 "..\..\kiralasatinal.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_1);
             
             #line default
@@ -168,7 +168,7 @@ namespace ilaydaproje {
             return;
             case 13:
             
-            #line 45 "..\..\kiralasatinal.xaml"
+            #line 47 "..\..\kiralasatinal.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_12);
             
             #line default

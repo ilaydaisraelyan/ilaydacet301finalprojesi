@@ -5,16 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ilaydaproje"
         mc:Ignorable="d"
-        Title="ElbiseKirala" Height="335.887" Width="357.132">
+        Title="ElbiseKirala" Height="288.736" Width="395.664">
     <Grid Margin="1,0,-0.667,-0.333">
-        <Image HorizontalAlignment="Left" Height="353" Margin="-3,-2,-41.666,-44" VerticalAlignment="Top" Width="395" Source="dress_03.jpg"/>
+        <Image HorizontalAlignment="Left" Height="353" Margin="-3,-2,-41.666,-44" VerticalAlignment="Top" Width="395" Source="3048730.jpg"/>
 
-        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Bottom" RenderTransformOrigin="1.647,1.75" Margin="3,0,0,243" Height="54" Text="Elbise Kirala !" FontSize="36" Width="213" FontFamily="Ebrima" Foreground="White"/>
-        <Label Content="Kullanıcı Adı" HorizontalAlignment="Left" Margin="3,69,0,0" VerticalAlignment="Top" Foreground="White" />
-        <TextBox x:Name="textbox1" HorizontalAlignment="Left" Height="23" Margin="3,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="187" TextChanged="textbox1_TextChanged"/>
-        <Label Content="Parola" HorizontalAlignment="Left" Margin="0,128,0,0" VerticalAlignment="Top" Foreground="White"/>
-        <PasswordBox x:Name="textbox2" HorizontalAlignment="Left" Margin="3,159,0,0" VerticalAlignment="Top" Width="187" Height="27"/>
-        <Button x:Name="button1" Content="Giriş Yap" HorizontalAlignment="Left" Margin="89,206,0,0" VerticalAlignment="Top" Width="101" Height="26" Click="Button_Click" Background="White"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Bottom" RenderTransformOrigin="1.647,1.75" Margin="3,0,0,206.666" Height="43" Text="Elbise Kirala !" FontSize="32" Width="193" FontFamily="Ebrima" Foreground="White" Background="Black" Opacity="0.8"/>
+        <Label Content="Kullanıcı Adı" HorizontalAlignment="Left" Margin="3,69,0,0" VerticalAlignment="Top" Foreground="White" Background="Black" Opacity="0.8" />
+        <TextBox x:Name="textbox1" HorizontalAlignment="Left" Height="28" Margin="3,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="187" TextChanged="textbox1_TextChanged"/>
+        <Label Content="Parola" HorizontalAlignment="Left" Margin="0,141,0,0" VerticalAlignment="Top" Foreground="White" Background="Black" Opacity="0.8"/>
+        <PasswordBox x:Name="textbox2" HorizontalAlignment="Left" Margin="3,172,0,0" VerticalAlignment="Top" Width="187" Height="27"/>
+        <Button x:Name="button1" Content="Giriş Yap" HorizontalAlignment="Left" Margin="89,223,0,0" VerticalAlignment="Top" Width="101" Height="26" Click="Button_Click" Background="White"/>
 
     </Grid>
 </Window>

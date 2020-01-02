@@ -5,16 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ilaydaproje"
         mc:Ignorable="d"
-        Title="Kullanıcı Ekranı" Height="450" Width="800">
+        Title="Kullanıcı Ekranı" Height="668.717" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="397*"/>
             <ColumnDefinition Width="396*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="Button10" Content="Elbise Kirala!" HorizontalAlignment="Left" Height="102" Margin="102,54,0,0" VerticalAlignment="Top" Width="243" Click="Button_Click" Background="#FF297D61"/>
-        <Button x:Name="button11" Content="Elbise Satın Al!" HorizontalAlignment="Left" Height="102" Margin="56.918,54,0,0" VerticalAlignment="Top" Width="243" Click="Button_Click_1" Background="#FFF6E744" Grid.Column="1"/>
-        <Button x:Name="button12" Content="Elbise Yükle" HorizontalAlignment="Left" Height="102" Margin="102,255,0,0" VerticalAlignment="Top" Width="243" Background="#FFC76337" Click="button12_Click"/>
-        <Button x:Name="button13" Content="Çıkış" HorizontalAlignment="Left" Height="102" Margin="56.918,255,0,0" VerticalAlignment="Top" Width="243" Background="#FF593DD1" Click="closeWindow" Grid.Column="1"/>
-        <Button x:Name="siparistakip" Content="Sipariş Takibi" HorizontalAlignment="Left" Margin="277,186,0,0" VerticalAlignment="Top" Width="219" Height="43" Grid.ColumnSpan="2" Click="siparistakip_Click"/>
+        <Image Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="828" Margin="0,0,0,-188.667" VerticalAlignment="Top" Width="793" Source="3048721.jpg"/>
+        <Button x:Name="Button10" Content="Elbise Kirala!" HorizontalAlignment="Left" Height="61" Margin="33,390,0,0" VerticalAlignment="Top" Width="200" Click="Button_Click" Background="Black" Opacity="0.9" FontSize="18" Foreground="White" BorderBrush="White"/>
+        <Button x:Name="button11" Content="Elbise Satın Al!" HorizontalAlignment="Left" Height="61" Margin="167.667,390,0,0" VerticalAlignment="Top" Width="200" Click="Button_Click_1" Background="Black" Grid.Column="1" Opacity="0.9" FontSize="18" BorderBrush="White" Foreground="White"/>
+        <Button x:Name="button12" Content="Elbise Yükle!" HorizontalAlignment="Left" Height="61" Margin="296,390,0,0" VerticalAlignment="Top" Width="201" Background="Black" Click="button12_Click" Grid.ColumnSpan="2" Opacity="0.9" FontSize="18" BorderBrush="White" Foreground="White"/>
+        <Button x:Name="button13" Content="Çıkış" HorizontalAlignment="Left" Height="61" Margin="34.667,506,0,0" VerticalAlignment="Top" Width="200" Background="Black" Click="closeWindow" Grid.Column="1" Opacity="0.8" FontSize="18" Foreground="White" BorderBrush="White"/>
+        <Button x:Name="siparistakip" Content="Sipariş Takibi" HorizontalAlignment="Left" Margin="164,506,0,0" VerticalAlignment="Top" Width="201" Height="61" Click="siparistakip_Click" Background="Black" Opacity="0.9" FontSize="18" Foreground="White" BorderBrush="White"/>
+        <Label HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Label Content="Hoş Geldiniz!" Height="59" Width="206" Foreground="White" FontSize="32" Background="#FF864B4B" Opacity="0.9"/>
+        </Label>
     </Grid>
 </Window>

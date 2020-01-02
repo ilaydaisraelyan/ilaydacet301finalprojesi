@@ -13,7 +13,7 @@
         </Grid.ColumnDefinitions>
         <Button x:Name="Button10" Content="Elbise Kirala!" HorizontalAlignment="Left" Height="102" Margin="102,54,0,0" VerticalAlignment="Top" Width="243" Click="Button_Click" Background="#FF297D61"/>
         <Button x:Name="button11" Content="Elbise Satın Al!" HorizontalAlignment="Left" Height="102" Margin="56.918,54,0,0" VerticalAlignment="Top" Width="243" Click="Button_Click_1" Background="#FFF6E744" Grid.Column="1"/>
-        <Button x:Name="button12" Content="Elbise Yükle" HorizontalAlignment="Left" Height="102" Margin="102,255,0,0" VerticalAlignment="Top" Width="243" Background="#FFC76337"/>
+        <Button x:Name="button12" Content="Elbise Yükle" HorizontalAlignment="Left" Height="102" Margin="102,255,0,0" VerticalAlignment="Top" Width="243" Background="#FFC76337" Click="button12_Click"/>
         <Button x:Name="button13" Content="Çıkış" HorizontalAlignment="Left" Height="102" Margin="56.918,255,0,0" VerticalAlignment="Top" Width="243" Background="#FF593DD1" Click="closeWindow" Grid.Column="1"/>
         <Button x:Name="siparistakip" Content="Sipariş Takibi" HorizontalAlignment="Left" Margin="277,186,0,0" VerticalAlignment="Top" Width="219" Height="43" Grid.ColumnSpan="2" Click="siparistakip_Click"/>
     </Grid>

@@ -36,5 +36,10 @@ namespace ilaydaproje
                 tb1.Text = "Geçersiz sipariş numarası.";
             }
         }
+
+        private void Button_Click_12(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

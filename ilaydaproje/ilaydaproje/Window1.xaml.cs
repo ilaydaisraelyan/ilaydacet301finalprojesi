@@ -54,5 +54,12 @@ namespace ilaydaproje
 
             st.Show();
         }
+
+        private void button12_Click(object sender, RoutedEventArgs e)
+        {
+            Elbise_Ekleme ee = new Elbise_Ekleme();
+
+            ee.Show();
+        }
     }
 }

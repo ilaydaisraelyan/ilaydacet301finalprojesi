@@ -34,3 +34,5 @@ C:\Users\ilayda\Desktop\ilaydacet301finalprojesi\ilaydaproje\ilaydaproje\obj\Deb
 C:\Users\ilayda\Desktop\ilaydacet301finalprojesi\ilaydaproje\ilaydaproje\obj\Debug\kiralasatinal.baml
 C:\Users\ilayda\Desktop\ilaydacet301finalprojesi\ilaydaproje\ilaydaproje\obj\Debug\siparistakip.g.cs
 C:\Users\ilayda\Desktop\ilaydacet301finalprojesi\ilaydaproje\ilaydaproje\obj\Debug\siparistakip.baml
+C:\Users\ilayda\Desktop\ilaydacet301finalprojesi\ilaydaproje\ilaydaproje\obj\Debug\Elbise Ekleme.g.cs
+C:\Users\ilayda\Desktop\ilaydacet301finalprojesi\ilaydaproje\ilaydaproje\obj\Debug\Elbise Ekleme.baml

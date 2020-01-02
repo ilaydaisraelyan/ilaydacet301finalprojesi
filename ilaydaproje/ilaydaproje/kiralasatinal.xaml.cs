@@ -83,6 +83,14 @@ namespace ilaydaproje
         {
             MessageBox.Show("Elbise satın alma başarılı.", "İşlem başarılı!");
         }
+
+        private void Button_Click_12(object sender, RoutedEventArgs e)
+        {
+            
+
+            this.Close();
+            
+        }
     }
     }
     

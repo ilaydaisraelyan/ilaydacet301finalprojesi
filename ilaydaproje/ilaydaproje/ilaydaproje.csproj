@@ -108,5 +108,19 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="elbıse1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="elbıse2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="elbıse3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="elbıse4.PNG" />
+    <Resource Include="elbıse5.PNG" />
+    <Resource Include="elbıse6.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

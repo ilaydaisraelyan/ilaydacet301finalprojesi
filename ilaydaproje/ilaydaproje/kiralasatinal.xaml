@@ -5,13 +5,43 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ilaydaproje"
         mc:Ignorable="d"
-        Title="Elbise Kiralama ve Satın Alma" Height="450" Width="800">
+        Title="Elbise Kiralama ve Satın Alma" Height="498.86" Width="856.149">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="277*"/>
-            <ColumnDefinition Width="517*"/>
+            <ColumnDefinition Width="426*"/>
+            <ColumnDefinition Width="90*"/>
         </Grid.ColumnDefinitions>
-        <Image HorizontalAlignment="Left" Height="100" Margin="45,70,0,0" VerticalAlignment="Top" Width="100" Source="Bitmap1.bmp" IsEnabled="False"/>
+        <Image HorizontalAlignment="Left" Height="296" Margin="7,24,0,0" VerticalAlignment="Top" Width="144" Source="elbıse1.PNG" IsEnabled="False"/>
+        <Image HorizontalAlignment="Left" Height="280" Margin="151,24,0,0" VerticalAlignment="Top" Width="133" Source="elbıse2.PNG" Grid.ColumnSpan="2"/>
+        <Image HorizontalAlignment="Left" Height="280" Margin="2.333,24,0,0" VerticalAlignment="Top" Width="132" Source="elbıse3.PNG" Grid.Column="1"/>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="283" Margin="122.333,24,0,0" VerticalAlignment="Top" Width="141" Source="elbıse4.PNG"/>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="267" Margin="255.333,37,0,0" VerticalAlignment="Top" Width="142" Source="elbıse5.PNG"/>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="283" Margin="388.333,37,-4.666,0" VerticalAlignment="Top" Width="133" Source="elbıse6.PNG" Grid.ColumnSpan="2"/>
+        <Label Content="Kiralama Fiyatı: 1.000 TL" HorizontalAlignment="Left" Height="26" Margin="7,324,0,0" VerticalAlignment="Top" Width="141" FontSize="10"/>
+        <Label Content="Satın Alma Fiyatı: 10.000 TL" HorizontalAlignment="Left" Height="26" Margin="7,350,0,0" VerticalAlignment="Top" Width="151" FontSize="10"/>
+        <Label Content="Kiralama Fiyatı: 1.250 TL" HorizontalAlignment="Left" Height="26" Margin="148,324,0,0" VerticalAlignment="Top" Width="141" FontSize="10" Grid.ColumnSpan="2"/>
+        <Label Content="Satın Alma Fiyatı: 12.500 TL" HorizontalAlignment="Left" Height="26" Margin="148,350,0,0" VerticalAlignment="Top" Width="151" FontSize="10" Grid.ColumnSpan="2"/>
+        <Label Content="Kiralama Fiyatı: 2.000 TL" HorizontalAlignment="Left" Height="26" Margin="2.333,324,0,0" VerticalAlignment="Top" Width="141" FontSize="10" Grid.Column="1"/>
+        <Label Content="Satın Alma Fiyatı: 20.000 TL" HorizontalAlignment="Left" Height="26" Margin="2.333,350,0,0" VerticalAlignment="Top" Width="151" FontSize="10" Grid.Column="1"/>
+        <Label Content="Kiralama Fiyatı: 1.000 TL" HorizontalAlignment="Left" Height="26" Margin="129.333,324,0,0" VerticalAlignment="Top" Width="141" FontSize="10" Grid.Column="1"/>
+        <Label Content="Satın Alma Fiyatı: 10.000 TL" HorizontalAlignment="Left" Height="26" Margin="129.333,350,0,0" VerticalAlignment="Top" Width="151" FontSize="10" Grid.Column="1"/>
+        <Label Content="Kiralama Fiyatı: 1.200 TL" HorizontalAlignment="Left" Height="26" Margin="255.333,324,0,0" VerticalAlignment="Top" Width="141" FontSize="10" Grid.Column="1"/>
+        <Label Content="Satın Alma Fiyatı: 12.000 TL" HorizontalAlignment="Left" Height="26" Margin="255.333,350,0,0" VerticalAlignment="Top" Width="151" FontSize="10" Grid.Column="1"/>
+        <Label Content="Kiralama Fiyatı: 1.500 TL" HorizontalAlignment="Left" Height="26" Margin="387.333,324,-11.666,0" VerticalAlignment="Top" Width="141" FontSize="10" Grid.Column="1" Grid.ColumnSpan="2"/>
+        <Label Content="Satın Alma Fiyatı: 15.000 TL" HorizontalAlignment="Left" Height="26" Margin="387.333,350,-21.666,0" VerticalAlignment="Top" Width="151" FontSize="10" Grid.Column="1" Grid.ColumnSpan="2"/>
+        <Button Content="Kirala" HorizontalAlignment="Left" Height="22" Margin="31,376,0,0" VerticalAlignment="Top" Width="84" Background="#FFDEDEDE" Click="Button_Click"/>
+        <Button Content="Satın Al" HorizontalAlignment="Left" Height="23" Margin="31,398,0,-0.333" VerticalAlignment="Top" Width="84" Background="#FFD5D5D2" Click="Button_Click_1"/>
+        <Button Content="Kirala" HorizontalAlignment="Left" Height="22" Margin="173,376,0,0" VerticalAlignment="Top" Width="84" Background="#FFDEDEDE" Click="Button_Click_2"/>
+        <Button Content="Kirala" HorizontalAlignment="Left" Height="22" Margin="21.333,376,0,0" VerticalAlignment="Top" Width="84" Background="#FFDEDEDE" Grid.Column="1" Click="Button_Click_4"/>
+        <Button Content="Satın Al" HorizontalAlignment="Left" Height="23" Margin="21.333,398,0,-0.333" VerticalAlignment="Top" Width="84" Background="#FFD5D5D2" Grid.Column="1" Click="Button_Click_5"/>
+        <Button Content="Kirala" HorizontalAlignment="Left" Height="22" Margin="149.333,376,0,0" VerticalAlignment="Top" Width="84" Background="#FFDEDEDE" Grid.Column="1" Click="Button_Click_6"/>
+        <Button Content="Satın Al" HorizontalAlignment="Left" Height="23" Margin="149.333,398,0,-0.333" VerticalAlignment="Top" Width="84" Background="#FFD5D5D2" Grid.Column="1" Click="Button_Click_7"/>
+        <Button Content="Kirala" HorizontalAlignment="Left" Height="22" Margin="281.333,376,0,0" VerticalAlignment="Top" Width="84" Background="#FFDEDEDE" Grid.Column="1" Click="Button_Click_8"/>
+        <Button Content="Satın Al" HorizontalAlignment="Left" Height="23" Margin="281.333,398,0,-0.333" VerticalAlignment="Top" Width="84" Background="#FFD5D5D2" Grid.Column="1" Click="Button_Click_9"/>
+        <Button Content="Kirala" HorizontalAlignment="Left" Height="22" Margin="409.333,376,0,0" VerticalAlignment="Top" Width="84" Background="#FFDEDEDE" Grid.Column="1" Click="Button_Click_10" Grid.ColumnSpan="2"/>
+        <Button Content="Satın Al" HorizontalAlignment="Left" Height="23" Margin="409.333,398,0,-0.333" VerticalAlignment="Top" Width="84" Background="#FFD5D5D2" Grid.Column="1" Click="Button_Click_11" Grid.ColumnSpan="2"/>
+        <Button Content="Satın Al" HorizontalAlignment="Left" Height="23" Margin="173,398,0,-0.333" VerticalAlignment="Top" Width="84" Background="#FFD5D5D2" Click="Button_Click_1"/>
 
     </Grid>
 </Window>

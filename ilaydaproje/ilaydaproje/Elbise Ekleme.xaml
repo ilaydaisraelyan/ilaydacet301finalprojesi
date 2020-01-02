@@ -5,21 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ilaydaproje"
         mc:Ignorable="d"
-        Title="Elbise_Ekleme" Height="450" Width="800">
+        Title="Elbise_Ekleme" Height="547.72" Width="787.043" ResizeMode="NoResize">
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Height="30" Margin="51,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" FontSize="18"><Run Text="Ürün "/><Run Text="m"/><Run Text="arkası"/><Run Text=":"/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Height="30" Margin="51,104,0,0" TextWrapping="Wrap" Text="Ürün bedeni:" VerticalAlignment="Top" Width="178" FontSize="18"/>
-        <TextBlock HorizontalAlignment="Left" Height="30" Margin="51,158,0,0" TextWrapping="Wrap" Text="Ürün kumaş türü:" VerticalAlignment="Top" Width="178" FontSize="18"/>
-        <TextBlock HorizontalAlignment="Left" Height="30" Margin="51,216,0,0" TextWrapping="Wrap" Text="Ürün kiralama fiyatı:" VerticalAlignment="Top" Width="178" FontSize="18"/>
-        <TextBlock HorizontalAlignment="Left" Height="30" Margin="51,271,0,0" TextWrapping="Wrap" Text="Ürün satış fiyatı:" VerticalAlignment="Top" Width="178" FontSize="18"/>
-        <Button Content="Ürün Bilgilerini Kaydet" HorizontalAlignment="Left" Height="44" Margin="265,335,0,0" VerticalAlignment="Top" Width="217" FontSize="16" Click="Button_Click"/>
-        <TextBox x:Name="textbox1" HorizontalAlignment="Left" Height="30" Margin="265,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217" TextChanged="textbox1_TextChanged"/>
-        <TextBox x:Name="textbox1_Copy" HorizontalAlignment="Left" Height="30" Margin="265,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217"/>
-        <TextBox x:Name="textbox1_Copy1" HorizontalAlignment="Left" Height="30" Margin="265,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217"/>
-        <TextBox x:Name="textbox1_Copy2" HorizontalAlignment="Left" Height="30" Margin="265,216,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217"/>
-        <TextBox x:Name="textbox1_Copy3" HorizontalAlignment="Left" Height="30" Margin="265,271,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217"/>
-        <Image HorizontalAlignment="Left" Height="338" Margin="587,41,0,0" VerticalAlignment="Top" Width="152" Source="elbıse7.PNG"/>
-        <Button Content="Geri" HorizontalAlignment="Left" Margin="336,390,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_12"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="399*"/>
+            <RowDefinition Height="22*"/>
+        </Grid.RowDefinitions>
+        <Image HorizontalAlignment="Left" Height="522" Margin="0,0,-484.333,-101.333" VerticalAlignment="Top" Width="1265" Source="3048751.jpg" Grid.RowSpan="2"/>
+
+        <TextBlock HorizontalAlignment="Left" Height="30" Margin="51,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" FontSize="18" Foreground="White"><Run Text="Ürün "/><Run Text="m"/><Run Text="arkası"/><Run Text=":"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="30" Margin="51,104,0,0" TextWrapping="Wrap" Text="Ürün bedeni:" VerticalAlignment="Top" Width="178" FontSize="18" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Left" Height="30" Margin="51,158,0,0" TextWrapping="Wrap" Text="Ürün kumaş türü:" VerticalAlignment="Top" Width="178" FontSize="18" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Left" Height="30" Margin="51,216,0,0" TextWrapping="Wrap" Text="Ürün kiralama fiyatı:" VerticalAlignment="Top" Width="178" FontSize="18" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Left" Height="30" Margin="51,271,0,0" TextWrapping="Wrap" Text="Ürün satış fiyatı:" VerticalAlignment="Top" Width="178" FontSize="18" Foreground="White"/>
+        <Button Content="Ürün Bilgilerini Kaydet" HorizontalAlignment="Left" Height="44" Margin="265,335,0,0" VerticalAlignment="Top" Width="217" FontSize="16" Click="Button_Click" Background="Black" BorderBrush="White" Foreground="White"/>
+        <TextBox x:Name="textbox1" HorizontalAlignment="Left" Height="30" Margin="265,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217" TextChanged="textbox1_TextChanged" BorderBrush="Black" SelectionBrush="#FFD87166"/>
+        <TextBox x:Name="textbox1_Copy" HorizontalAlignment="Left" Height="30" Margin="265,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217" BorderBrush="Black" SelectionBrush="#FFD87166"/>
+        <TextBox x:Name="textbox1_Copy1" HorizontalAlignment="Left" Height="30" Margin="265,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217" BorderBrush="Black" SelectionBrush="#FFD87166"/>
+        <TextBox x:Name="textbox1_Copy2" HorizontalAlignment="Left" Height="30" Margin="265,216,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217" BorderBrush="Black" SelectionBrush="#FFD87166"/>
+        <TextBox x:Name="textbox1_Copy3" HorizontalAlignment="Left" Height="30" Margin="265,271,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217" BorderBrush="Black" SelectionBrush="#FFD87166"/>
+        <Image HorizontalAlignment="Left" Height="369" Margin="586,50,0,0" VerticalAlignment="Top" Width="185" Source="elbıse7.PNG"/>
+        <Button Content="Geri Git" HorizontalAlignment="Left" Margin="328,407,0,0" VerticalAlignment="Top" Width="92" Click="Button_Click_12" BorderBrush="White" Height="32" Background="Black" Foreground="White"/>
 
     </Grid>
 </Window>

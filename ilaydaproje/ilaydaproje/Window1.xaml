@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ilaydaproje"
         mc:Ignorable="d"
-        Title="Kullanıcı Ekranı" Height="668.717" Width="800">
+        Title="Kullanıcı Ekranı" Height="668.717" Width="800" ResizeMode="NoResize">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="397*"/>

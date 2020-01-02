@@ -5,13 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ilaydaproje"
         mc:Ignorable="d"
-        Title="siparistakip" Height="450" Width="800">
+        Title="siparistakip" Height="450" Width="632.094" ResizeMode="NoResize">
     <Grid>
-        <TextBox x:Name="textbox1" HorizontalAlignment="Left" Height="51" Margin="141,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="508" FontSize="36"/>
-        <Label Content="Sipariş Numarası" HorizontalAlignment="Left" Margin="202,55,0,0" VerticalAlignment="Top" FontSize="48"/>
-        <Button Content="SORGULA" HorizontalAlignment="Left" Margin="287,206,0,0" VerticalAlignment="Top" Width="198" Height="50" Click="Button_Click"/>
-        <TextBlock x:Name="tb1" HorizontalAlignment="Left" Margin="287,305,0,0" TextWrapping="Wrap" Text="SONUÇ" VerticalAlignment="Top" FontSize="24"/>
-        <Button Content="Geri" HorizontalAlignment="Left" Margin="692,381,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_12"/>
+        <Image HorizontalAlignment="Left" Height="419" VerticalAlignment="Top" Width="649" Source="3048754.jpg"/>
+
+        <TextBox x:Name="textbox1" HorizontalAlignment="Left" Height="51" Margin="63,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="508" FontSize="36"/>
+        <Label Content="Sipariş Numarasını giriniz;" HorizontalAlignment="Left" Margin="35,42,0,0" VerticalAlignment="Top" FontSize="48" Foreground="White" Background="Black" Opacity="0.8"/>
+        <Button Content="Sorgula" HorizontalAlignment="Left" Margin="220,272,0,0" VerticalAlignment="Top" Width="198" Height="50" Click="Button_Click" Background="Black" BorderBrush="White" Foreground="White" FontSize="16"/>
+        <TextBlock x:Name="tb1" HorizontalAlignment="Left" Margin="220,344,0,0" TextWrapping="Wrap" Text="Sonuç" VerticalAlignment="Top" FontSize="24" Foreground="White" Background="Black"/>
+        <Button Content="Geri" HorizontalAlignment="Left" Margin="518,384,0,0" VerticalAlignment="Top" Width="83" Click="Button_Click_12" Foreground="Black" BorderBrush="Black" Height="27" Background="White"/>
 
     </Grid>
 </Window>

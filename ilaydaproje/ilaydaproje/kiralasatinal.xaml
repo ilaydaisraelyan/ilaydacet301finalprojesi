@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ilaydaproje"
         mc:Ignorable="d"
-        Title="Elbise Kiralama ve Satın Alma" Height="588.482" Width="856.149">
+        Title="Elbise Kiralama ve Satın Alma" Height="588.482" Width="856.149" ResizeMode="NoResize">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="297*"/>
